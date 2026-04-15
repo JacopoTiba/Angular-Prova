@@ -1,0 +1,25 @@
+<div class="dropdown box">
+    <button class="btn btn-secondary dropdown-toggle" type="button" data-bs-toggle="dropdown" id="dropdown-citta">
+        {{citta}}
+    </button>
+    <ul class="dropdown-menu" aria-labelledby="dropdown-citta">
+        <li><a class="dropdown-item" href="#" (click)="citta = 'all'">Tutti</a></li>
+        @for (city of booksService.citta; track $index) {
+        <li><a class="dropdown-item" href="#" (click)="citta = city">{{city}}</a></li>
+        }
+    </ul>
+</div>
+
+<div class="dropdown box">
+    <button class="btn btn-secondary dropdown-toggle" type="button" data-bs-toggle="dropdown" aria-expanded="false">
+        {{genere}}
+    </button>
+    <ul class="dropdown-menu">
+        <li><a class="dropdown-item" href="#" (click)="genere = 'all'">Tutti</a></li>
+        @for (gender of booksService.genere; track $index) {
+        <li><a class="dropdown-item" href="#" (click)="genere = gender">{{gender}}</a></li>
+        }
+    </ul>
+</div>
+
+<button type="button" class="btn box btn-primary" (click)="filtra()">FILTRA</button>

@@ -1,0 +1,396 @@
+{
+  "libri": [
+    {
+      "id": "1",
+      "titolo": "Il nome della rosa",
+      "autore": "Umberto Eco",
+      "genere": "Storico",
+      "anno": 1980,
+      "sede": {
+        "citta": "Torino",
+        "biblioteca": "Biblioteca Nazionale",
+        "nCopie": 5
+      },
+      "descrizione": "Un romanzo storico ambientato in un monastero medievale, intrecciato con un giallo filosofico.",
+      "copiePrestate": 4
+    },
+    {
+      "id": "2",
+      "titolo": "Se questo è un uomo",
+      "autore": "Primo Levi",
+      "genere": "Autobiografia",
+      "anno": 1947,
+      "sede": {
+        "citta": "Torino",
+        "biblioteca": "Biblioteca Nazionale",
+        "nCopie": 4
+      },
+      "descrizione": "Racconto autobiografico dell'esperienza nel lager di Auschwitz.",
+      "copiePrestate": 1
+    },
+    {
+      "id": "3",
+      "titolo": "I Promessi Sposi",
+      "autore": "Alessandro Manzoni",
+      "genere": "Classico",
+      "anno": 1827,
+      "sede": {
+        "citta": "Milano",
+        "biblioteca": "Biblioteca Braidense",
+        "nCopie": 8
+      },
+      "descrizione": "Il più celebre romanzo della letteratura italiana dell'Ottocento.",
+      "copiePrestate": 3
+    },
+    {
+      "id": "4",
+      "titolo": "La coscienza di Zeno",
+      "autore": "Italo Svevo",
+      "genere": "Classico",
+      "anno": 1923,
+      "sede": {
+        "citta": "Milano",
+        "biblioteca": "Biblioteca Braidense",
+        "nCopie": 3
+      },
+      "descrizione": "Romanzo modernista narrato come diario di un ipocondriaco triestino.",
+      "copiePrestate": 0
+    },
+    {
+      "id": "5",
+      "titolo": "Il deserto dei Tartari",
+      "autore": "Dino Buzzati",
+      "genere": "Narrativa",
+      "anno": 1940,
+      "sede": {
+        "citta": "Roma",
+        "biblioteca": "Biblioteca Nazionale Centrale",
+        "nCopie": 4
+      },
+      "descrizione": "Un ufficiale attende un nemico che forse non arriverà mai, allegoria dell'attesa e del tempo.",
+      "copiePrestate": 1
+    },
+    {
+      "id": "6",
+      "titolo": "Fontamara",
+      "autore": "Ignazio Silone",
+      "genere": "Narrativa",
+      "anno": 1933,
+      "sede": {
+        "citta": "Roma",
+        "biblioteca": "Biblioteca Nazionale Centrale",
+        "nCopie": 2
+      },
+      "descrizione": "La storia dei cafoni di un villaggio abruzzese sotto il fascismo.",
+      "copiePrestate": 0
+    },
+    {
+      "id": "7",
+      "titolo": "Cristo si è fermato a Eboli",
+      "autore": "Carlo Levi",
+      "genere": "Autobiografia",
+      "anno": 1945,
+      "sede": {
+        "citta": "Napoli",
+        "biblioteca": "Biblioteca Nazionale di Napoli",
+        "nCopie": 3
+      },
+      "descrizione": "Memorie del confino in Lucania, ritratto antropologico del Sud Italia.",
+      "copiePrestate": 0
+    },
+    {
+      "id": "8",
+      "titolo": "Il fu Mattia Pascal",
+      "autore": "Luigi Pirandello",
+      "genere": "Classico",
+      "anno": 1904,
+      "sede": {
+        "citta": "Napoli",
+        "biblioteca": "Biblioteca Nazionale di Napoli",
+        "nCopie": 5
+      },
+      "descrizione": "Un uomo approfitta di un equivoco per ricominciare da zero con una nuova identità.",
+      "copiePrestate": 2
+    },
+    {
+      "id": "9",
+      "titolo": "Uno, nessuno e centomila",
+      "autore": "Luigi Pirandello",
+      "genere": "Classico",
+      "anno": 1926,
+      "sede": {
+        "citta": "Torino",
+        "biblioteca": "Biblioteca Civica Centrale",
+        "nCopie": 3
+      },
+      "descrizione": "La crisi dell'identità personale: uno è tanti agli occhi degli altri.",
+      "copiePrestate": 0
+    },
+    {
+      "id": "10",
+      "titolo": "Marcovaldo",
+      "autore": "Italo Calvino",
+      "genere": "Narrativa",
+      "anno": 1963,
+      "sede": {
+        "citta": "Torino",
+        "biblioteca": "Biblioteca Civica Centrale",
+        "nCopie": 6
+      },
+      "descrizione": "Le avventure di un operaio con lo sguardo incantato di un bambino nella città industriale.",
+      "copiePrestate": 1
+    },
+    {
+      "id": "11",
+      "titolo": "Il sentiero dei nidi di ragno",
+      "autore": "Italo Calvino",
+      "genere": "Storico",
+      "anno": 1947,
+      "sede": {
+        "citta": "Milano",
+        "biblioteca": "Biblioteca Sormani",
+        "nCopie": 4
+      },
+      "descrizione": "La Resistenza vista attraverso gli occhi di un bambino ligure.",
+      "copiePrestate": 0
+    },
+    {
+      "id": "12",
+      "titolo": "L'isola di Arturo",
+      "autore": "Elsa Morante",
+      "genere": "Narrativa",
+      "anno": 1957,
+      "sede": {
+        "citta": "Roma",
+        "biblioteca": "Biblioteca Nazionale Centrale",
+        "nCopie": 3
+      },
+      "descrizione": "L'adolescenza di un ragazzo sull'isola di Procida, tra miti e disillusioni.",
+      "copiePrestate": 3
+    },
+    {
+      "id": "13",
+      "titolo": "La storia",
+      "autore": "Elsa Morante",
+      "genere": "Storico",
+      "anno": 1974,
+      "sede": {
+        "citta": "Roma",
+        "biblioteca": "Biblioteca Nazionale Centrale",
+        "nCopie": 4
+      },
+      "descrizione": "Una madre e suo figlio nella Roma devastata dalla seconda guerra mondiale.",
+      "copiePrestate": 1
+    },
+    {
+      "id": "14",
+      "titolo": "Lessico famigliare",
+      "autore": "Natalia Ginzburg",
+      "genere": "Autobiografia",
+      "anno": 1963,
+      "sede": {
+        "citta": "Torino",
+        "biblioteca": "Biblioteca Nazionale",
+        "nCopie": 5
+      },
+      "descrizione": "Ritratto affettuoso di una famiglia torinese ebraica nel Novecento.",
+      "copiePrestate": 2
+    },
+    {
+      "id": "15",
+      "titolo": "Furore",
+      "autore": "John Steinbeck",
+      "genere": "Narrativa",
+      "anno": 1939,
+      "sede": {
+        "citta": "Milano",
+        "biblioteca": "Biblioteca Sormani",
+        "nCopie": 4
+      },
+      "descrizione": "La famiglia Joad migra dall'Oklahoma alla California durante la Grande Depressione.",
+      "copiePrestate": 0
+    },
+    {
+      "id": "16",
+      "titolo": "1984",
+      "autore": "George Orwell",
+      "genere": "Fantascienza",
+      "anno": 1949,
+      "sede": {
+        "citta": "Milano",
+        "biblioteca": "Biblioteca Braidense",
+        "nCopie": 7
+      },
+      "descrizione": "In un futuro distopico, Winston Smith sfida il controllo totalitario del Grande Fratello.",
+      "copiePrestate": 4
+    },
+    {
+      "id": "17",
+      "titolo": "Il mondo nuovo",
+      "autore": "Aldous Huxley",
+      "genere": "Fantascienza",
+      "anno": 1932,
+      "sede": {
+        "citta": "Napoli",
+        "biblioteca": "Biblioteca Nazionale di Napoli",
+        "nCopie": 3
+      },
+      "descrizione": "Una società futura in cui la felicità è imposta attraverso il condizionamento e le droghe.",
+      "copiePrestate": 0
+    },
+    {
+      "id": "18",
+      "titolo": "Fahrenheit 451",
+      "autore": "Ray Bradbury",
+      "genere": "Fantascienza",
+      "anno": 1953,
+      "sede": {
+        "citta": "Torino",
+        "biblioteca": "Biblioteca Civica Centrale",
+        "nCopie": 5
+      },
+      "descrizione": "In un futuro dove i libri sono proibiti, un pompiere inizia a leggere di nascosto.",
+      "copiePrestate": 2
+    },
+    {
+      "id": "19",
+      "titolo": "Il processo",
+      "autore": "Franz Kafka",
+      "genere": "Classico",
+      "anno": 1925,
+      "sede": {
+        "citta": "Roma",
+        "biblioteca": "Biblioteca Casanatense",
+        "nCopie": 3
+      },
+      "descrizione": "Josef K viene arrestato senza sapere il motivo e affronta un processo kafkiano.",
+      "copiePrestate": 1
+    },
+    {
+      "id": "20",
+      "titolo": "La metamorfosi",
+      "autore": "Franz Kafka",
+      "genere": "Classico",
+      "anno": 1915,
+      "sede": {
+        "citta": "Roma",
+        "biblioteca": "Biblioteca Casanatense",
+        "nCopie": 4
+      },
+      "descrizione": "Gregor Samsa si sveglia trasformato in un insetto enorme e affronta il rifiuto della famiglia.",
+      "copiePrestate": 2
+    },
+    {
+      "id": "21",
+      "titolo": "Delitto e castigo",
+      "autore": "Fëdor Dostoevskij",
+      "genere": "Classico",
+      "anno": 1866,
+      "sede": {
+        "citta": "Milano",
+        "biblioteca": "Biblioteca Sormani",
+        "nCopie": 5
+      },
+      "descrizione": "Uno studente povero commette un omicidio e si confronta con i propri sensi di colpa.",
+      "copiePrestate": 1
+    },
+    {
+      "id": "22",
+      "titolo": "Il vecchio e il mare",
+      "autore": "Ernest Hemingway",
+      "genere": "Narrativa",
+      "anno": 1952,
+      "sede": {
+        "citta": "Napoli",
+        "biblioteca": "Biblioteca Nazionale di Napoli",
+        "nCopie": 4
+      },
+      "descrizione": "Un vecchio pescatore cubano combatte per giorni con un enorme marlin.",
+      "copiePrestate": 0
+    },
+    {
+      "id": "23",
+      "titolo": "Il giovane Holden",
+      "autore": "J.D. Salinger",
+      "genere": "Narrativa",
+      "anno": 1951,
+      "sede": {
+        "citta": "Torino",
+        "biblioteca": "Biblioteca Civica Centrale",
+        "nCopie": 5
+      },
+      "descrizione": "Le peregrinazioni di un sedicenne ribelle per New York dopo essere stato espulso dal college.",
+      "copiePrestate": 3
+    },
+    {
+      "id": "24",
+      "titolo": "Il Signore degli Anelli",
+      "autore": "J.R.R. Tolkien",
+      "genere": "Fantasy",
+      "anno": 1954,
+      "sede": {
+        "citta": "Milano",
+        "biblioteca": "Biblioteca Sormani",
+        "nCopie": 6
+      },
+      "descrizione": "L'epica avventura di Frodo per distruggere l'Unico Anello nella Terra di Mezzo.",
+      "copiePrestate": 5
+    },
+    {
+      "id": "25",
+      "titolo": "Harry Potter e la pietra filosofale",
+      "autore": "J.K. Rowling",
+      "genere": "Fantasy",
+      "anno": 1997,
+      "sede": {
+        "citta": "Milano",
+        "biblioteca": "Biblioteca Braidense",
+        "nCopie": 10
+      },
+      "descrizione": "Il giovane Harry scopre di essere un mago e inizia i suoi studi a Hogwarts.",
+      "copiePrestate": 10
+    },
+    {
+      "id": "26",
+      "titolo": "Foundation",
+      "autore": "Isaac Asimov",
+      "genere": "Fantascienza",
+      "anno": 1951,
+      "sede": {
+        "citta": "Torino",
+        "biblioteca": "Biblioteca Nazionale",
+        "nCopie": 4
+      },
+      "descrizione": "Lo scienziato Hari Seldon tenta di preservare il sapere umano dalla caduta di un impero galattico.",
+      "copiePrestate": 1
+    },
+    {
+      "id": "27",
+      "titolo": "Lo Hobbit",
+      "autore": "J.R.R. Tolkien",
+      "genere": "Fantasy",
+      "anno": 1937,
+      "sede": {
+        "citta": "Roma",
+        "biblioteca": "Biblioteca Nazionale Centrale",
+        "nCopie": 7
+      },
+      "descrizione": "Bilbo Baggins, uno hobbit tranquillo, viene coinvolto in un'avventura per riconquistare un tesoro.",
+      "copiePrestate": 3
+    },
+    {
+      "id": "28",
+      "titolo": "Cronache di Narnia",
+      "autore": "C.S. Lewis",
+      "genere": "Fantasy",
+      "anno": 1950,
+      "sede": {
+        "citta": "Napoli",
+        "biblioteca": "Biblioteca Nazionale di Napoli",
+        "nCopie": 5
+      },
+      "descrizione": "Quattro fratelli entrano attraverso un armadio nel mondo magico di Narnia.",
+      "copiePrestate": 2
+    }
+  ]
+}

@@ -1,0 +1,37 @@
+<table class="table">
+    <thead>
+        <tr>
+            <th scope="col">ID</th>
+            <th scope="col">Titolo</th>
+            <th scope="col">Autore</th>
+            <th scope="col">Genere</th>
+            <th scope="col">Città</th>
+            <th scope="col">Biblioteca</th>
+            <th scope="col">Copie</th>
+            <th scope="col">Prestate</th>
+            <th scope="col-2">AZIONI</th>
+        </tr>
+    </thead>
+    <tbody>
+        @if(BooksService.libro.length == 0) {
+            <tr class="col-12"><td>Libri mancanti</td></tr>
+        }
+        @for (libro of BooksService.libro; track $index) {
+        <tr>
+            <th scope="row">{{libro.id}}</th>
+            <td>{{libro.titolo}}</td>
+            <td>{{libro.autore}}</td>
+            <td>{{libro.genere}}</td>
+            <td>{{libro.sede.citta}}</td>
+            <td>{{libro.sede.biblioteca}}</td>
+            <td>{{libro.sede.nCopie}}</td>
+            <td>{{libro.copiePrestate}}</td>
+            <td><button type="button" class="btn btn-info" (click)="mostraDettagli(libro)">Dettagli</button></td>
+            <td><button type="button" class="btn btn-success" (click)="presta(libro)" 
+                [disabled]="libro.copiePrestate >= libro.sede.nCopie">Presta</button></td>
+        </tr>
+        }
+    </tbody>
+</table>
+
+<app-details-component [libro]="selectedLibro"></app-details-component>

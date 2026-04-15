@@ -1,0 +1,17 @@
+@if (libro) {
+<div class="card mt-3">
+  <div class="card-header">
+    Dettagli Libro
+  </div>
+
+  <div class="card-body">
+    <p><b>Autore e titolo del libro con id {{libro.id}}:</b> {{libro.autore}}  {{libro.titolo}}</p>
+    <p><b>Descrizione del libro con id {{libro.id}}:</b> {{libro.descrizione}}</p>
+    <p>
+      <b>Citta:</b> {{libro.sede.citta}} <b> - </b>
+      <b>Biblioteca:</b> {{libro.sede.biblioteca}} <b> - </b>
+      <b>Copie disponibili:</b> {{libro.sede.nCopie - libro.copiePrestate}}
+    </p>
+  </div>
+</div>
+}
